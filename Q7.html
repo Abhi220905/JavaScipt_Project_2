@@ -1,0 +1,46 @@
+<!-- Maximun Value  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Maximum Value </title>
+</head>
+
+<body>
+    <script>
+        var num1 = prompt("Enter Number 1");
+        var num2 = prompt("Enter Number 2");
+        var num3 = prompt("Enter Number 3");
+        var num4 = prompt("Enter Number 4");
+
+        if (num1 > num2) {
+            if (num1 > num3) {
+                if (num1 > num4) {
+                    document.write(num1, " Is Max");
+                } else {
+                    document.write(num4, " Is Max");
+                }
+            }
+        } else {
+            if (num2 > num3) {
+                if (num2 > num4) {
+                    document.write(num2, " Is Max");
+                } else {
+                    document.write(num4, " Is Max");
+                }
+            } else {
+                if (num3 > num4) {
+                    document.write(num3, " Is Max");
+                } else {
+                    document.write(num4, " Is Max");
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>

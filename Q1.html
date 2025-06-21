@@ -1,0 +1,30 @@
+<!-- Password Changing -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Changing</title>
+</head>
+
+<body>
+    <script>
+        var old_password = Number(prompt("Enter Password: "));
+
+        if (old_password == 1234) {
+            var new_pass = Number(prompt("Enter New Password: "));
+            var conf_pass = Number(prompt("Enter confirm Password: "));
+            if (new_pass == conf_pass) {
+                alert("Do u want to change password?? " + conf_pass);
+                alert("Your new password has been updated -> " + new_pass);
+            } else {
+                alert("Ur password not match...");
+            }
+        } else {
+            alert("Password is Incorrect");
+        }
+    </script>
+</body>
+
+</html>
